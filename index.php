@@ -20,7 +20,7 @@
                         <option value="USD">USD</option>
                         <option value="NAIRA">NAIRA</option>
                     </select>
-                    <input class="form-control" type="number" name="digit"/>
+                    <input class="form-control" type="number" value="<?php echo isset($_POST['digit']) ? $_POST['digit'] : ''  ?>" name="digit"/>
                 </div>    
                 <br />
                 <div class="form-inline">
